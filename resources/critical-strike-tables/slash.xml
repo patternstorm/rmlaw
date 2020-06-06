@@ -1,0 +1,123 @@
+<criticalTable name="Slash" abbreviation="S">
+<columns>
+<column severity="A">
+<rows>
+<row low="1" high="5" damage="Zip."/>
+<row low="6" high="10" damage="+1 hit."/>
+<row low="11" high="15" damage="You have initiative next rnd. +1 hit."/>
+<row low="16" high="20" damage="Foe must parry next rnd. +1 hit."/>
+<row low="21" high="35" damage="Foe must parry next rnd. +2 hits. Add +10 to next swing."/>
+<row low="36" high="45" damage="Minor calf wound. Foe receives 1 hit/rnd."/>
+<row low="46" high="50" damage="Blow to foe's back. +2 hits. Foe must parry next rnd at -30."/>
+<row low="51" high="55" damage="Blow to foe's chest. Foe must parry next round -25. Wound gives 1 hit/rnd. +2 hits."/>
+<row low="56" high="60" damage="Minor thigh wound. Foe takes 2 hits/rnd and must parry next rnd. +3 hits."/>
+<row low="61" high="65" damage="Minor forearm wound. +3 hits. Foe takes 2 hits/rnd and is at -10."/>
+<row low="66" high="66" damage="Shatter foe's shield arm shoulder. Arm is useless. +10 next swing. Foe is stunned 3 rnds. +9 hits. Your initiative."/>
+<row low="67" high="70" damage="Slash foe's neck. +6 hits. Foe is stunned for 3 rnds and cannot parry next rnd."/>
+<row low="71" high="75" damage="Slash tendons in foe's lower leg. Foe at-30 and takes 2 hits/rnd. +4 hits. Stun foe for 2 rnds. Poor sucker."/>
+<row low="76" high="80" damage="Slash foe's upper arm. +5 hits. Foe takes 3 hits/rnd and is at -25. Foe is stunned and unable to parry 2 rnds."/>
+<row low="81" high="85" damage="Slash foe's side. +6 hits and a major wound. Foe takes 6 hits/rnd and is stunned 5 rnds. Add +20 to your next swing."/>
+<row low="86" high="90" damage="Slash foe's back. +8 hits. Foe is stunned and cannot parry for 2 rnds. Foe takes 2 hits/rnd and is at -10."/>
+<row low="91" high="95" damage="Cut off foe's ear. +3 hits. Foe takes 3 hits/rnd and hears at -50. Foe is stunned 3 rnds and unable to parry next rnd."/>
+<row low="96" high="99" damage="Slash foe's nose. Minor wound. +2 hits and a permanent scar. Foe takes 2 hits/rnd and is at -30. Foe stunned 6 rnds."/>
+<row low="100" high="100" damage="Neck strike severs carotid artery and jugular vein. Foe's neck is broken. Foe dies in 1 rnd of intense agony."/>
+</rows>
+</column>
+
+<column severity="B">
+<rows>
+<row low="1" high="5" damage="Weak strike. +0 hits. "/>
+<row low="6" high="10" damage="+2 hits."/>
+<row low="11" high="15" damage="Glancing blow to side. +3 hits. You have initiative next rnd."/>
+<row low="16" high="20" damage="Blow to side. +2 hits. Foe must parry next rnd at -10."/>
+<row low="21" high="35" damage="Foe must parry next rnd at -20. +2 hits."/>
+<row low="36" high="45" damage="Minor calf wound. Foe takes 1 hit/rnd. +2 hits."/>
+<row low="46" high="50" damage="Blow to foe's back. Foe must parry next rnd at -30. +4 hits."/>
+<row low="51" high="55" damage="Minor chest wound. Foe takes 1 hit/rnd and must parry next 2 rnds. +3 hits. Foe fights at -5."/>
+<row low="56" high="60" damage="Minor thigh wound. Foe takes 2 hits/rnd. +4 hits. Foe must parry next 2 rnds."/>
+<row low="61" high="65" damage="Minor forearm wound. Foe is stunned next rnd, takes 2 hits/rnd and is at -10. +4 hits."/>
+<row low="66" high="66" damage="Shatter foe's weapon arm elbow. +8 hits. Foe is stunned for 4 rnds and cannot parry for 2 rnds."/>
+<row low="67" high="70" damage="Blow to foe's neck . Foe takes 3 hits/rnd and fights at-5. Stun foe for 2 rnds. +7 hits."/>
+<row low="71" high="75" damage="Slash muscle in foe's calf. Foe is stunned for 3 rnds and cannot parry next rnd. +6 hits. Foe at -40."/>
+<row low="76" high="80" damage="Slash muscle in foe's shield arm. Foe is at -30 and takes 3 hits/rnd. Stunned and unable to parry for 2 rnds. +6 hits."/>
+<row low="81" high="85" damage="Slash foe's side. +7 hits and a major wound. Foe takes 6 hits/rnd. Foe is stunned and cannot parry for next 2 rnds."/>
+<row low="86" high="90" damage="Strike to back knocks foe down. Foe is stunned and unable to parry for 3 rnds. +10 hits. Foe takes 3 hits/rnd."/>
+<row low="91" high="95" damage="Strike to foe's hip. +7 hits and foe is stunned 3 rnds. Foe cannot parry next rnd and fights -20. Add +10 to your next swing."/>
+<row low="96" high="99" damage="Strike to foe's head and neck breaks skull and causes massive brain damage. Foe drops and dies in 6 rnds. +20 hits."/>
+<row low="100" high="100" damage="Disembowel foe, killing him instantly. 25% chance your weapon is stuck in opponent during next rnd."/>
+</rows>
+</column>
+
+<column severity="C">
+<rows>
+<row low="1" high="5" damage="+1 hit"/>
+<row low="6" high="10" damage="+3 hits"/>
+<row low="11" high="15" damage="Blow to foe's side. +6 hits. You have initiative next rnd."/>
+<row low="16" high="20" damage="Blow to side. +4 hits. Foe must parry next rnd -20."/>
+<row low="21" high="35" damage="You break foe's rib. +3 hits. Foe is stunned next rnd."/>
+<row low="36" high="45" damage="You slash foe's leg. Foe takes 2 hits/rnd. +2 hits."/>
+<row low="46" high="50" damage="Blow to foe's back stuns foe for 1 rnd. Foe takes 1 hit/rnd. +3 hits. Foe cannot parry for 1 rnd."/>
+<row low="51" high="55" damage="Minor chest wound. +4 hits. Foe takes 2 hits/rnd and fights at -10. Foe must parry next rnd."/>
+<row low="56" high="60" damage="Minor thigh wound. Foe takes 2 hits/rnd. +5 hits. Foe is stunned next rnd."/>
+<row low="61" high="65" damage="Medium forearm wound. +4 hits. Foe takes 3 hits/rnd, is at -10, and is stunned next rnd."/>
+<row low="66" high="66" damage="Shatter foe's knee. Foe is knocked down. +6 hits. Foe at -90 and is down for 3 rnds and cannot parry."/>
+<row low="67" high="70" damage="Slash foe's neck. Foe is stunned 4 rnds and cannot parry next 2 rnds. +8 hits. +10 next rnd."/>
+<row low="71" high="75" damage="Slash muscle and tendons in foe's lower leg. Foe is stunned for 2 rnds and cannot parry. +7 hits. Foe at -45."/>
+<row low="76" high="80" damage="Slash muscle and tendons in foe's shield arm. +9 hits. Foe takes 4 hits/rnd and arm is useless. Foe is stunned 6 rnds."/>
+<row low="81" high="85" damage="Strike to foe's side. +8 hits. Foe takes 4 hits/rnd and is at -20. Foe is stunned and cannot parry for next 2 rnds."/>
+<row low="86" high="90" damage="Blast to back breaks bone and knocks foe down. +9 hits and foe at -10. Foe is stunned and unable to parry for 4 rnds."/>
+<row low="91" high="95" damage="Sever foe's leg. Foe drops immediately and dies in 6 rnds due to shock and blood loss. +20 hits."/>
+<row low="96" high="99" damage="Sever foe's shield arm. Foe is stunned and unable to parry for 20 rnds. +18 hits."/>
+<row low="100" high="100" damage="Destroy foe's eyes. +5 hits and foe is stunned and unable to parry for next 30 rnds."/>
+</rows>
+</column>
+
+<column severity="D">
+<rows>
+<row low="1" high="5" damage="+2 hits"/>
+<row low="6" high="10" damage="+4 hits"/>
+<row low="11" high="15" damage="+3 hits. Foe must parry next rnd."/>
+<row low="16" high="20" damage="Minor side wound. Foe at -10. +2 hits. Receive initiative next rnd."/>
+<row low="21" high="35" damage="Strike to side. Foe is stunned for next rnd and cannot parry. +3 hits."/>
+<row low="36" high="45" damage="Slash foe's upper leg. +3 hits. Foe takes 2 hits/rnd."/>
+<row low="46" high="50" damage="Strike foe's lower back. Foe may not parry and is out next round. +3 hits. Foe takes 2 hits/rnd."/>
+<row low="51" high="55" damage="Medium chest wound. +5 hits. Foe takes 3 hits/rnd, fights at -15, and must parry next rnd."/>
+<row low="56" high="60" damage="Medium thigh wound. +6 hits. Foe takes 2 hits/rnd and is stunned 2 rnds."/>
+<row low="61" high="65" damage="Medium forearm wound. +4 hits. Foe takes 3 hits/rnd, is at -10, and is stunned next 2 rnds."/>
+<row low="66" high="66" damage="You knock foe out for 6 hours with a strike to side of head. +15 hits. If foe has no helm, you kill him instantly."/>
+<row low="67" high="70" damage="Slash muscle in foe's shoulder. +5 hits. Foe is stunned 3 rnds, and is at -20. Add +10 to your next swing."/>
+<row low="71" high="75" damage="Slash muscle and sever tendons in foe's lower leg. Foe is stunned for 3 rnds and cannot parry for next 2 rnds. Foe is at -50."/>
+<row low="76" high="80" damage="Slash muscle and tendons in foe's weapon arm. Arm is useless and foe is stunned 4 rnds. Foe cannot parry next 2 rnds. +10 hits."/>
+<row low="81" high="85" damage="Major abdominal wound. +10 hits. Foe takes 8 hits/rnd, is stunned for 4 rnds, and is unable to parry for next 2 rnds. Foe at -10."/>
+<row low="86" high="90" damage="Sever opponent's hand. +6 hits. Foe is stunned for 6 rnds, unable to parry. Foe then drops and dies 6 rnds later."/>
+<row low="91" high="95" damage="Sever foe's weapon arm. Foe is stunned and unable to parry for next 9 rnds. Foe then dies. +15 hits."/>
+<row low="96" high="99" damage="Slash foe's side. +20 hits. Foe dies in 3 rnds due to massive internal organ damage. Foe is down and unconscious immediately."/>
+<row low="100" high="100" damage="Impale adversary in heart. +12 hits. Foe dies instantly. Heart is destroyed. 25% chance your weapon is stuck in foe 2 rnds."/>
+</rows>
+</column>
+
+<column severity="E">
+<rows>
+<row low="1" high="5" damage="+3 hits"/>
+<row low="6" high="10" damage="Unbalance foe. +5 hits. You have initiative next rnd."/>
+<row low="11" high="15" damage="+4 hits. Foe must parry next rnd."/>
+<row low="16" high="20" damage="Stun foe for 1 rnd. Foe may not parry. Add +10 to your next swing."/>
+<row low="21" high="35" damage="Foe receives minor side wound, fights at -10 and takes 1 hit/rnd, +3 hits."/>
+<row low="36" high="45" damage="Blow to foe's upper leg. If foe has leg armor +5 hits. If foe has no armor, +3 hits and +3 hits/rnd."/>
+<row low="46" high="50" damage="Strike to foe's lower back. Foe may not parry and is out next rnd. +4 hits. Foe takes 3 hits/rnd."/>
+<row low="51" high="55" damage="Chest wound. Foe takes 4 hits/rnd, at -10, and is stunned 2 rnds. +6 hits."/>
+<row low="56" high="60" damage="Thigh wound. Foe is stunned for 2 rnds. +8 hits. Foe takes 5 hits/rnd."/>
+<row low="61" high="65" damage="Forearm wound. Foe is stunned for 2 rnds. +6 hits. Foe takes 3 hits /rnd and is at -15."/>
+<row low="66" high="66" damage="Sever foe's weapon arm. +12 hits. Foe expires in 12 rnds, drops immediately. Add +10 to your next swing."/>
+<row low="67" high="70" damage="Slash tendons and crush the bone in foe's shield shoulder. Arm is useless and foe takes 2 hits/rnd. Foe is stunned for 4 rnds."/>
+<row low="71" high="75" damage="Slash foe's lower leg and sever muscle and tendons. Foe at -70. +8 hits. Foe is stunned for 6 rnds."/>
+<row low="76" high="80" damage="Slash tendons and break bone in foe's shield arm. Arm is useless. +12 hits. Foe is stunned and unable to parry for next 3 rnds."/>
+<row low="81" high="85" damage="Sever opponent's hand. +5 hits. Foe is stunned and unable to parry for next 12 rnds. Foe then dies."/>
+<row low="86" high="90" damage="Sever foe's leg. +15 hits. Foe drops and lapses into unconsciousness. Foe dies in 9 rnds. Add +10 to your next swing."/>
+<row low="91" high="95" damage="Sever foe's spine. +20 hits. Foe collapses in a second, and is paralyzed from the neck down permanently."/>
+<row low="96" high="99" damage="Strike to foe's head destroys brain and makes life difficult for the poor fool. Foe expires in a heap �immediately."/>
+<row low="100" high="100" damage="Strike to foe's groin area. +10 hits. All vitals are destroyed immediately Foe is stunned and unable to parry for 12 rnds and then dies."/>
+</rows>
+</column>
+</columns>
+</criticalTable>

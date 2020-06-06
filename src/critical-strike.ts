@@ -1,5 +1,6 @@
 import {SAXParser} from "sax-ts/build/src/sax";
 import {Tag} from "sax";
+import * as fs from "fs";
 
 
 export class CriticalStrike {
@@ -25,7 +26,7 @@ export namespace CriticalStrike {
 
     export type Severity = "A" | "B" | "C" | "D" | "E"
 
-    export type Type = "Heat" | "slash"
+    export type Type = "Heat" | "Slash"
 
     export type Span = [number, number]
 
@@ -35,8 +36,8 @@ export namespace CriticalStrike {
     export function add(critical: CriticalStrike) {
         const min: number = critical.span[0]
         const max: number = critical.span[1]
-        for(let i: number = min; i <= max; i++) {
-             map.set([critical.type, critical.severity, i].join(","), critical)
+        for (let i: number = min; i <= max; i++) {
+            map.set([critical.type, critical.severity, i].join(","), critical)
         }
     }
 
@@ -44,7 +45,7 @@ export namespace CriticalStrike {
         return map.get([type, severity, result].join(","))
     }
 
-    export function parse(xml: string):Array<CriticalStrike> {
+    export function parse(xml: string): Array<CriticalStrike> {
         let criticals: Array<CriticalStrike> = []
         let type: string
         let severity: string = ""
@@ -56,9 +57,13 @@ export namespace CriticalStrike {
         };
 
         parser.onopentag = function (node: Tag) {
-            switch(node.name) {
-                case "criticalTable": type = node.attributes["name"]; break
-                case "column": severity = node.attributes["severity"]; break
+            switch (node.name) {
+                case "criticalTable":
+                    type = node.attributes["name"];
+                    break
+                case "column":
+                    severity = node.attributes["severity"];
+                    break
                 case "row": {
                     const critical: CriticalStrike = new CriticalStrike(
                         type as Type,
@@ -75,11 +80,14 @@ export namespace CriticalStrike {
     }
 
     export function initialize() {
-        // fs.readdir(testFolder, (err, files) => {
-        //     files.forEach(file => {
-        //         console.log(file);
-        //     });
-        // });
+        map.clear()
+        const resources: string = __dirname + "/../resources/critical-strike-tables/"
+        const files = fs.readdirSync(resources)
+        files.map(file => {
+            const xml: string = fs.readFileSync(resources + file).toString()
+            const criticals: Array<CriticalStrike> = CriticalStrike.parse(xml)
+            criticals.map(critical => CriticalStrike.add(critical))
+        })
     }
 
 
