@@ -1,0 +1,123 @@
+<criticalTable name="Heat" abbreviation="H">
+<columns>
+<column severity="A">
+<rows>
+<row low="1" high="5" damage="Hot air. +0 hits."/>
+<row low="6" high="10" damage="+1 hit."/>
+<row low="11" high="15" damage="Foe loses initiative for 1 rnd. Hard, hot breeze. +2 hits."/>
+<row low="16" high="20" damage="Foe loses initiative for 1 rnd. The nearby fire gives 3 more hits. Good blast, weak fire."/>
+<row low="21" high="35" damage="Blast unbalances foe. He loses initiative for 2 rnds. +4 hits. "/>
+<row low="36" high="45" damage="Foe must parry for 1 rnd. +6 hits."/>
+<row low="46" high="50" damage="Light burns. Foe must parry for 1 rnd. +7 hits, and foe takes 1 hit per rnd."/>
+<row low="51" high="55" damage="Blast unbalances foe. +8 hits. Foe must parry for two rnds and takes 1 hit per rnd."/>
+<row low="56" high="60" damage="Foe is stunned 1 rnd. +9 hits. Loses initiative for 2 rnds and takes 2 hits per rnd."/>
+<row low="61" high="65" damage="Foe is stunned 2 rnds. If leg armor, he takes +7 hits and 1 hit per rnd. If not, he takes +10 hits and 3 per rnd."/>
+<row low="66" high="66" damage="Blast causes foe to drop what he is holding. Stunned, no parry 2 rnds and is at -15 (chest burns). +9 hits."/>
+<row low="67" high="70" damage="Back blast. Foe is stunned for 2 rnds. Foe takes 2 hits per rnd and fights at -5. +8 hits."/>
+<row low="71" high="75" damage="Hot smoke blinds foe. Foe is stunned and unable to parry for 1 rnd. +12 hits."/>
+<row low="76" high="80" damage="Blast stuns foe for 2 rnds. Foe cannot parry for 1 rnd. +10 hits. Side wound. Foe takes 2 hits per rnd."/>
+<row low="81" high="85" damage="Back blast. Foe is stunned for 2 rnds and is at -20.  Burns deliver 2 hits per round. +8 hits."/>
+<row low="86" high="90" damage="Blast knocks foe down. Fire destroys any of Foe's organic foot and calf covering. +10 hits."/>
+<row low="91" high="95" damage="Fire burns foe in hip area. Foe is stunned and unable to parry for 2 rnds. Foe fights at -30. +12 hits."/>
+<row low="96" high="99" damage="Blast to foe's neck area. If foe has neck armor, he is stunned and unable to parry for 3 rnds. If not, foe is down and taking 8 hits per rnd."/>
+<row low="100" high="100" damage="Searing blast to foe's head. If he has helm, he is knocked out and takes 7 hits/rnd. If not, he is in a 1 mo. coma and loses 50% of his Presence. +15 hits."/>
+</rows>
+</column>
+
+<column severity="B">
+<rows>
+<row low="1" high="5" damage="Hot draft. +0 hits."/>
+<row low="6" high="10" damage="+2 hits."/>
+<row low="11" high="15" damage="Foe loses 1 rnd of initiative. +2 hits. Strong heat; little effect."/>
+<row low="16" high="20" damage="Blast unbalances foe. Foe loses initiative for 2 rnds."/>
+<row low="21" high="35" damage="Bothersome smoke. +6 hits."/>
+<row low="36" high="45" damage="Light burns. Foe must parry for 1 rnd. +7 hits. Foe takes 1 hit per rnd."/>
+<row low="46" high="50" damage="Minor burns. Foe must parry for 2 rnds. +8 hits. Foe takes 1 hit per rnd."/>
+<row low="51" high="55" damage="Wide shot, strong fire. Blast stuns foe for 1 round. +8 hits. Foe takes 2 hits per rnd."/>
+<row low="56" high="60" damage="Foe stunned 2 rnds. If metal leg armor, +8 hits. If not, + hits and 3 hits per rnd."/>
+<row low="61" high="65" damage="Foe is stunned and unable to parry for 1 rnd. +9 hits, and 2 hits per rnd. Foe fights at -5 (leg burns)."/>
+<row low="66" high="66" damage="Foe is stunned 2 rnds. If foe wears organic armor, it is now useless. +10 hits. Foe takes 4 hits per rnd from chest blast."/>
+<row low="67" high="70" damage="Back blast. Foe is stunned for 2 rnds and unable to parry for 1 rnd. Foe takes 2 hits per rnd and fights at -10. +7 hits."/>
+<row low="71" high="75" damage="Chest blast. Foe is stunned for 2 rnds and unable to parry for 1 rnd. Foe fights at -15. Add +10 to your next attack. +9 hits."/>
+<row low="76" high="80" damage="Arm strike. Burns stuns foe for 2 rnds. foe takes 2 hits per rnd. All cloth on foe's weapon arm is burned off and foe drops whatever he is holding."/>
+<row low="81" high="85" damage="Back blast. Foe is knocked down, stunned 1 rnd, and takes 2 hits/rnd. All organic material on back is destroyed."/>
+<row low="86" high="90" damage="Leg strike. Any organic leg covering catches fire and delivers 6 hits per rnd until extinguished (takes 1 rnd). Foe is stunned for 3 rnds. +10 hits."/>
+<row low="91" high="95" damage="Head strike. Foe is blinded and fights at -95 for 6 rnds. If foe has no helm, he takes 8 hits/rnd and loses 50% of head hair . Any organic helm is destroyed."/>
+<row low="96" high="99" damage="Neck strike destroys foe's throat. +20 hits. Foe takes 12 hits per rnd and is inactive for 9 rnds. Foe then dies. Add 10 to your next roll."/>
+<row low="100" high="100" damage="Blast to foe's neck fuses vertebrae and unites skin with clothing . Very unpleasant. Foe is paralyzed permanently. +25 hits."/>
+</rows>
+</column>
+
+<column severity="C">
+<rows>
+<row low="1" high="5" damage="+1 hit."/>
+<row low="6" high="10" damage="+3 hits."/>
+<row low="11" high="15" damage="Foe loses 1 rnd of initiative while he recovers his balance. +3 hits."/>
+<row low="16" high="20" damage="Foe loses initiative for 2 rnds. +5 hits."/>
+<row low="21" high="35" damage="Light burns. Foe must parry for 1 rnd. 1 hit per rnd. +7 hits."/>
+<row low="36" high="45" damage="Minor burns force foe to parry for 2 rnds. +8 hits and 1 hit per rnd."/>
+<row low="46" high="50" damage="Fire stuns foe for one rnd. +9 hits. Foe takes 2 hits per rnd. Minor burns."/>
+<row low="51" high="55" damage="Blast stuns foe 2 rnds. +9 hits. If leg armor, he takes 1 hit/rnd. If not, 3 hits/rnd."/>
+<row low="56" high="60" damage="Blast stuns foe 2 rnds. +10 hits; +2 hits per rnd. All cloth on foe's back is destroyed."/>
+<row low="61" high="65" damage="Foe is stunned and unable to parry for 1 rnd. +10 hits, foe takes 3 hits per rnd and is at -10. Upper leg burns."/>
+<row low="66" high="66" damage="Chest blast knocks foe down. If arm armor, he takes 2 hits/rnd. If not , his weapon arm is useless and he takes 4 hits/rnd. +12 hits."/>
+<row low="67" high="70" damage="Back blast. Foe is stunned for 2 rnds and unable to parry for 1 rnd. Foe takes 2 hits per rnd and fights at -15."/>
+<row low="71" high="75" damage="Chest blast. Foe is stunned for 3 rnds. If foe has organic chest armor, it is destroyed. If no chest armor, foe takes 6 hits per rnd and fights at -25."/>
+<row low="76" high="80" damage="Blast to foe's shield arm. If he has a shield, he drops it. If not, stunned 6 rnds, loses use of arm, and fights at -50. If shield is organic, it is destroyed."/>
+<row low="81" high="85" damage="Leg blast. If leg armor, he takes +2 hits/rnd and is at -20. If not, massive tissue damage: his leg is useless: he is at -80."/>
+<row low="86" high="90" damage="Lower leg burns. Foe loses foot, but wound is cauterized. Foe is stunned and unable to parry for 6 rnds, takes +3 hits per rnd; and is at -85. +15 hits."/>
+<row low="91" high="95" damage="Upper leg burns. Foe loses use of leg due to tissue loss, is stunned and unable to parry for 6 rnds, takes +4 hits per rnd and fights at -90. +18 hits."/>
+<row low="96" high="99" damage="Chest strike. If foe has chest armor, it is destroyed and foe dies of burns in 9 rnds. If not, foe's chest cavity is a hollow cinder and he dies instantly."/>
+<row low="100" high="100" damage="Foe's head is but a charred stump. Sadly, foe cannot handle the loss and he dies instantly. Add +10 to your next roll."/>
+</rows>
+</column>
+
+<column severity="D">
+<rows>
+<row low="1" high="5" damage="+2 hits."/>
+<row low="6" high="10" damage="+4 hits."/>
+<row low="11" high="15" damage="Foe loses initiative for 1 round.Not quite singeing. +4 hits."/>
+<row low="16" high="20" damage="Foe is unbalanced and must parry for 1 rnd. +6 hits."/>
+<row low="21" high="35" damage="Minor burns. Foe must parry for 2 rnds. 1 hit per rnd. +8 hits."/>
+<row low="36" high="45" damage="Blast stuns foe for 1 rnd. +9 hits. Foe takes 2 hits per rnd due to pain and suffering."/>
+<row low="46" high="50" damage="Fire stuns foe for 1 rnd. +10 hits. 3 hits per rnd. If foe is using a non-metal bow, it is destroyed."/>
+<row low="51" high="55" damage="Blast stuns foe 2 rnds. If helm, 8 hits and 2 per rnd. If not, 11 hits and 4 per rnd."/>
+<row low="56" high="60" damage="Foe's clothing ignites. 1 rnd stun, no parry, takes +9 hits/rnd while aflame (2 rnds to extinguish fire). +12 hits."/>
+<row low="61" high="65" damage="Foe is stunned 2 rnds, unable to parry for 1. If leg armor, he takes +10 hits and 4 hits/rnd. If not, +13 hits and 6 hits per rnd."/>
+<row low="66" high="66" damage="Neck blast. If foe has neck armor, he takes 3 hits/rnd and fights at -10. If not, foe is unconscious and takes 10 hits per rnd."/>
+<row low="67" high="70" damage="Back blast. Foe is knocked down. +15 hits. Foe is out of action for 1 rnd. Foe takes 3 hits/rnd. Organic material on his back is destroyed."/>
+<row low="71" high="75" damage="Blast to foe's shield arm. If he has a shield, he drops it. If organic, it is destroyed. If he has no shield, he is stunned 6 rnds, loses use of arm, and fights at -50."/>
+<row low="76" high="80" damage="Foes loses weapon hand. Severe burns. Any item in hand possibly damaged. Foe is stunned and unable to parry 3 rnds, and takes 5 hits per rnd."/>
+<row low="81" high="85" damage="Blast burns both of foe's arms and all of upper chest. Foe loses use of arms and is stunned 9 rnds. +15 hits."/>
+<row low="86" high="90" damage="Abdomen strike. If foe has armor, it is destroyed, foe is out, and takes 2 hits/rnd. If not, foe dies in 12 inactive rnds from organ damage."/>
+<row low="91" high="95" damage="Head strike. If foe has a full helmet, his eyes are destroyed and he is in a coma for 2 days. If not, foe dies in 6 rounds due to massive shock and brain damage. +20 hits."/>
+<row low="96" high="99" damage="Foe's side is engulfed in flames. Foe dies in 6 rnds due to many compound fractures, tissue and organ loss, and boiling blood. +20 hits."/>
+<row low="100" high="100" damage="Heat vaporizes foe's mid-section, destroys foe's clothing, armor, and all items he carries. Foe is cut in half and dies. +15 to your next roll."/>
+</rows>
+</column>
+
+<column severity="E">
+<rows>
+<row low="1" high="5" damage="+3 hits."/>
+<row low="6" high="10" damage="Foe loses initiative for 1 rnd. +4 hits."/>
+<row low="11" high="15" damage="Foe feels heat, loses 1 rnd initiative; if he has no armor, 2 rnds. +5 hits."/>
+<row low="16" high="20" damage="Hot, unbalancing blast. Foe must parry for 1 rnd. +7 hits."/>
+<row low="21" high="35" damage="Minor burns. Foe must parry for 2 rnds. 2 hits per rnd. +9 hits."/>
+<row low="36" high="45" damage="Blast stuns foe 1 rnd.+10 hits. Foe take 3more hits per rnd. Ifwearing, a cloak it is destroyed."/>
+<row low="46" high="50" damage="Fire stuns foe for 2 rnds. +12 hits and 3 hits per rnd. If foe is using a wooden weapon, it is destroyed."/>
+<row low="51" high="55" damage="Foe reels back 3'. 1 rnd stun, no parry. Takes 3 hits per rnd from hot blast. +13 hits."/>
+<row low="56" high="60" damage="Fire stuns foe 2 rnds; +15 hits, and cannot parry for 1 rnd. He is at -10 and burns deliver 3 hits per rnd."/>
+<row low="61" high="65" damage="Searing blast burns foe's legs. Foe is stunned and unable to parry for 2 rnds. He takes 4 hits per rnd and fights at -10. +15 hits."/>
+<row low="66" high="66" damage="Head strike. If foe has helm, he is knocked out and takes 5 hits per rnd. If not, foe is killed instantly, his head fully vaporized. Fine aim."/>
+<row low="67" high="70" damage="Blast to foe's shield arm. If foe has arm armor, he takes 4 hits/rnd and fights at -15. If no armor, foe takes 5 hits/rnd and loses use of arm."/>
+<row low="71" high="75" damage="Chest blast. If foe has chest armor, it is destroyed. Foe takes +12 hits and is stunned 3 rnds. Otherwise, foe is knocked down, takes 6 hits per rnd and fights at -60."/>
+<row low="76" high="80" damage="Blast to foe's shield arm. If foe has a shield, it is destroyed , foe loses his hand and is stunned for 6 rnds. If not, foe loses arm and is knocked out. +20 hits."/>
+<row low="81" high="85" damage="Foe inhales flame and gets parched throat and lungs. Foe expires in 12 painful rnds. +20 hits."/>
+<row low="86" high="90" damage="Foe's lower body is engulfed in flames. Foe dies in 9 rnds as a result of organ and tissue loss. +20 hits."/>
+<row low="91" high="95" damage="Chest strike. All organic material on foe's body is destroyed. Foe dies of shock and nerve damage in 6 rnds. +25 hits."/>
+<row low="96" high="99" damage="Foe is instantly dehydrated into dust. Add +10 to your next roll."/>
+<row low="100" high="100" damage="All that remains of foe are charred bits of teeth and bone. Add +20 to your next roll."/>
+</rows>
+</column>
+</columns>
+</criticalTable>
