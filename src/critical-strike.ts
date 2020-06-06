@@ -74,5 +74,13 @@ export namespace CriticalStrike {
         return criticals;
     }
 
+    export function initialize() {
+        // fs.readdir(testFolder, (err, files) => {
+        //     files.forEach(file => {
+        //         console.log(file);
+        //     });
+        // });
+    }
+
 
 }
