@@ -4,7 +4,10 @@
   "description": "Rolemaster RPG System",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "start": "node ./build/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/patternstorm/rmlaw/issues"
   },
-  "homepage": "https://github.com/patternstorm/rmlaw#readme"
+  "homepage": "https://github.com/patternstorm/rmlaw#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.11",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@types/sax": "^1.2.1",
+    "sax-ts": "^1.2.9"
+  }
 }
