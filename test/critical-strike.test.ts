@@ -4,6 +4,7 @@ import * as fs from "fs";
 const critical1 = new CriticalStrike("Heat","E", [21,35], "Minor burns. Foe must parry for 2 rnds. 2 hits per rnd. +9 hits.")
 const critical2 = new CriticalStrike("Heat","E", [66,66], "Head strike. If foe has helm, he is knocked out and takes 5 hits per rnd. If not, foe is killed instantly, his head fully vaporized. Fine aim.")
 const critical3 = new CriticalStrike("Slash","B", [1,5], "Weak strike. +0 hits. ")
+const critical4 = new CriticalStrike("Puncture","B", [46,50], "Strike to foe's back. Foe is stunned for 1 rnd and takes hit/rnd.")
 
 test('critical strikes storing', async (done) => {
     const critical: CriticalStrike = new CriticalStrike(
@@ -37,5 +38,7 @@ test('initialize Critical Strike Tables', async (done) => {
     expect(CriticalStrike.get("Heat", "E", 21)).toStrictEqual(critical1)
     expect(CriticalStrike.get("Heat", "E", 66)).toStrictEqual(critical2)
     expect(CriticalStrike.get("Slash", "B", 3)).toStrictEqual(critical3)
+    expect(CriticalStrike.get("Puncture", "B", 46)).toStrictEqual(critical4)
+    console.log(CriticalStrike.toJSON())
     done()
 }, 10)

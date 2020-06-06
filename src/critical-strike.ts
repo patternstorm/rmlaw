@@ -26,7 +26,7 @@ export namespace CriticalStrike {
 
     export type Severity = "A" | "B" | "C" | "D" | "E"
 
-    export type Type = "Heat" | "Slash"
+    export type Type = "Heat" | "Slash" | "Puncture"
 
     export type Span = [number, number]
 
@@ -88,6 +88,10 @@ export namespace CriticalStrike {
             const criticals: Array<CriticalStrike> = CriticalStrike.parse(xml)
             criticals.map(critical => CriticalStrike.add(critical))
         })
+    }
+
+    export function toJSON(): string {
+        return JSON.stringify(Array.from(map.entries()))
     }
 
 

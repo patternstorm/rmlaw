@@ -115,7 +115,7 @@
 <row low="81" high="85" damage="Sever opponent's hand. +5 hits. Foe is stunned and unable to parry for next 12 rnds. Foe then dies."/>
 <row low="86" high="90" damage="Sever foe's leg. +15 hits. Foe drops and lapses into unconsciousness. Foe dies in 9 rnds. Add +10 to your next swing."/>
 <row low="91" high="95" damage="Sever foe's spine. +20 hits. Foe collapses in a second, and is paralyzed from the neck down permanently."/>
-<row low="96" high="99" damage="Strike to foe's head destroys brain and makes life difficult for the poor fool. Foe expires in a heap �immediately."/>
+<row low="96" high="99" damage="Strike to foe's head destroys brain and makes life difficult for the poor fool. Foe expires in a heap immediately."/>
 <row low="100" high="100" damage="Strike to foe's groin area. +10 hits. All vitals are destroyed immediately Foe is stunned and unable to parry for 12 rnds and then dies."/>
 </rows>
 </column>
