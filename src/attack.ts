@@ -4,6 +4,7 @@ import * as fs from "fs";
 import {CriticalStrike} from "./critical-strike";
 import {Armor} from "./armor";
 import broadsword from "../resources/attack-tables/broadsword-attack-table.json"
+import compositebow from "../resources/attack-tables/compositebow-attack-table.json"
 
 
 export interface Attack {
@@ -20,7 +21,7 @@ export namespace Attack {
 
     type Table = { attacks: Array<Attack> }
 
-    const tables: Array<Table> = [broadsword]
+    const tables: Array<Table> = [broadsword, compositebow]
 
     export type Type = "Broadsword" | "Composite Bow"
 
